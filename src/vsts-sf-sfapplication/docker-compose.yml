@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  samplewebapp:
+    image: samplewebapp
+    build:
+      context: .\SampleWebApp
+      dockerfile: Dockerfile
