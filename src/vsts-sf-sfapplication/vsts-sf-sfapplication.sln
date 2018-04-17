@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "sf_WebAppContainert", "sf-WebAppContainert\sf_WebAppContainert.sfproj", "{B4ABB4AB-20E0-4EEA-8B25-3A012C968036}"
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "sf_WebAppContainer", "sf-WebAppContainert\sf_WebAppContainer.sfproj", "{B4ABB4AB-20E0-4EEA-8B25-3A012C968036}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApp", "SampleWebApp\SampleWebApp.csproj", "{9F930282-03FC-463A-B4B0-A8822A37B0C3}"
 EndProject
