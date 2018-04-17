@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  samplewebappiis:
+    image: samplewebappiis
+    build:
+      context: .\SampleWebAppIIS
+      dockerfile: Dockerfile
