@@ -1,4 +1,4 @@
-$path = "$Env:SYSTEM_DEFAULTWORKINGDIRECTORY" + "\src\TesteBuild\testBuildSF\ApplicationPackageRoot\SampleWebAppPkg\ServiceManifest.xml"
+$path = "$Env:BUILD_ARTIFACTSTAGINGDIRECTORY" + "\applicationpackage\SampleWebAppPkg\ServiceManifest.xml"
 
 [xml]$XmlDocument = Get-Content -Path $path
 
