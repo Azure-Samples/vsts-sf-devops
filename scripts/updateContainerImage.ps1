@@ -4,6 +4,6 @@ $path = "$Env:BUILD_ARTIFACTSTAGINGDIRECTORY" + "\applicationpackage\SampleWebAp
 
 $CurrentContainerName = $XmlDocument.ServiceManifest.CodePackage.EntryPoint.ContainerHost.ImageName
 
-(Get-Content $path).replace($CurrentContainerName, $Env:SFImageName) | Set-Content $path
+(Get-Content $path).replace($CurrentContainerName, $Env:SFImageName.ToLower()) | Set-Content $path
 
 Get-Content $path
