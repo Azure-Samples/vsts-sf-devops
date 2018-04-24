@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ApplicationManifest ApplicationTypeName="testBuildSFType"
                      ApplicationTypeVersion="1.0.0"
                      xmlns="http://schemas.microsoft.com/2011/01/fabric"
@@ -13,6 +13,11 @@
   <ServiceManifestImport>
     <ServiceManifestRef ServiceManifestName="SampleWebAppPkg" ServiceManifestVersion="1.0.0" />
     <ConfigOverrides />
+      <Policies>
+        <ContainerHostPolicies CodePackageRef="Code">
+          <PortBinding ContainerPort="80" EndpointRef="SampleWebAppTypeEndpoint" />
+        </ContainerHostPolicies>
+      </Policies>
   </ServiceManifestImport>
   <DefaultServices>
     <!-- The section below creates instances of service types, when an instance of this 
