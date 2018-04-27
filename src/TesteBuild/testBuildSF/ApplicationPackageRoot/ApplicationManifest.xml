@@ -12,7 +12,6 @@
        ServiceManifest.xml file. -->
   <ServiceManifestImport>
     <ServiceManifestRef ServiceManifestName="SampleWebAppPkg" ServiceManifestVersion="1.0.0" />
-    <ConfigOverrides />
       <Policies>
         <ContainerHostPolicies CodePackageRef="Code">
           <PortBinding ContainerPort="80" EndpointRef="SampleWebAppTypeEndpoint" />
