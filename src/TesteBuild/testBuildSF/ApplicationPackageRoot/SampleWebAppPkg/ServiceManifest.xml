@@ -10,7 +10,7 @@
     <StatelessServiceType ServiceTypeName="SampleWebAppType" UseImplicitHost="true" />
   </ServiceTypes>
 
-  <!-- Code package is your service executable. -->
+  <!-- Code package  is your service executable. -->
   <CodePackage Name="Code" Version="1.0.0">
     <EntryPoint>
       <!-- Follow this link for more information about deploying Windows containers to Service Fabric: https://aka.ms/sfguestcontainers -->
