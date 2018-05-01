@@ -15,7 +15,8 @@
     <EntryPoint>
       <!-- Follow this link for more information about deploying Windows containers to Service Fabric: https://aka.ms/sfguestcontainers -->
       <ContainerHost>
-        <ImageName>MyContainer</ImageName>
+        <ImageName>microsoft/dotnet-samples:aspnetapp</ImageName>
+        <!-- <ImageName>MyContainer</ImageName> -->
       </ContainerHost>
     </EntryPoint>
     <!-- Pass environment variables to your container: -->
