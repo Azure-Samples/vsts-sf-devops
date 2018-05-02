@@ -7,7 +7,7 @@
   <Parameters>
     <Parameter Name="SampleWebApp_InstanceCount" DefaultValue="-1" />
   </Parameters>
-  <!-- Import the  ServiceManifest from the ServicePackage. The ServiceManifestName and ServiceManifestVersion 
+  <!-- Import  the  ServiceManifest from the ServicePackage. The ServiceManifestName and ServiceManifestVersion 
        should match the Name and Version attributes of the ServiceManifest element defined in the 
        ServiceManifest.xml file. -->
   <ServiceManifestImport>
