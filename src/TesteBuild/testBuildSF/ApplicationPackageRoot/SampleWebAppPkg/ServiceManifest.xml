@@ -6,7 +6,7 @@
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ServiceTypes>
     <!-- This is the name of your ServiceType .
-         The UseImplicitHost attribute indicates this is a guest service. -->
+         The UseImplicitHost  attribute indicates this is a guest service. -->
     <StatelessServiceType ServiceTypeName="SampleWebAppType" UseImplicitHost="true" />
   </ServiceTypes>
 
