@@ -14,7 +14,7 @@
     <ServiceManifestRef ServiceManifestName="SampleWebAppPkg" ServiceManifestVersion="1.0.0" />
       <Policies>
         <ContainerHostPolicies CodePackageRef="Code">
-          <PortBinding ContainerPort="25565" EndpointRef="SampleWebAppTypeEndpoint" />
+          <PortBinding ContainerPort="80" EndpointRef="SampleWebAppTypeEndpoint" />
         </ContainerHostPolicies>
       </Policies>
   </ServiceManifestImport>
