@@ -13,7 +13,7 @@
   <!-- Code package is your service executable. -->
   <CodePackage Name="Code" Version="1.0.0">
     <EntryPoint>
-      <!-- Follow this  link for more information about deploying Windows containers to Service Fabric: https://aka.ms/sfguestcontainers -->
+      <!-- Follow this link for more information about deploying Windows containers to Service Fabric: https://aka.ms/sfguestcontainers -->
       <ContainerHost>         
       <!--  <ImageName>MyContainer</ImageName> -->
         <ImageName>microsoft/dotnet-samples:aspnetapp</ImageName> 
