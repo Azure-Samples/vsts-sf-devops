@@ -1,10 +1,7 @@
 version: '3'
 
 services:
-  testebuild:
-    ports:
-      - "80"
-  samplewebappcore:
+  samplewebappcore2:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
@@ -13,4 +10,3 @@ networks:
   default:
     external:
       name: nat
-

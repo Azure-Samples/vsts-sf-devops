@@ -3,16 +3,16 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.0</ProjectVersion>
     <DockerTargetOS>Windows</DockerTargetOS>
-    <ProjectGuid>0a0d8bba-1fb3-45fe-96ce-32acc253f0df</ProjectGuid>
+    <ProjectGuid>03881de2-c1cb-4478-b412-5038c7c988a7</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>http://{ServiceIPAddress}</DockerServiceUrl>
-    <DockerServiceName>testebuild</DockerServiceName>
+    <DockerServiceName>samplewebappcore2</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
-    <None Include=".dockerignore" />
     <None Include="docker-compose.override.yml">
       <DependentUpon>docker-compose.yml</DependentUpon>
     </None>
     <None Include="docker-compose.yml" />
+    <None Include=".dockerignore" />
   </ItemGroup>
 </Project>

@@ -1,15 +1,8 @@
 version: '3'
 
 services:
-  testebuild:
-    image: testebuild
-    build:
-      context: .\TesteBuild
-      dockerfile: Dockerfile
-
-  samplewebappcore:
-    image: samplewebappcore
+  samplewebappcore2:
+    image: samplewebappcore2
     build:
       context: .
-      dockerfile: ..\SampleWebAppCore\Dockerfile
-
+      dockerfile: SampleWebAppCore2\Dockerfile
