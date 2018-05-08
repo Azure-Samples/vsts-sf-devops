@@ -4,5 +4,5 @@ services:
   samplewebappcore2:
     image: samplewebappcore2
     build:
-      context: .
-      dockerfile: SampleWebAppCore2\Dockerfile
+      context: .\SampleWebAppCore2
+      dockerfile: Dockerfile
