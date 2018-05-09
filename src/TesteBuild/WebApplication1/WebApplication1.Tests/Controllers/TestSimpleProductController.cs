@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Web.Http.Results;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using StoreApp.Controllers;
-using StoreApp.Models;
+using WebApplication1.Controllers;
+using WebApplication1.Models;
 
-namespace StoreApp.Tests
+namespace WebApplication1.Tests
 {
     [TestClass]
     public class TestSimpleProductController

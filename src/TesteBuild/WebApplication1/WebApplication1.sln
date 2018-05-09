@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebAppli
 EndProject
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "SampleApplication", "..\SampleApplication\SampleApplication.sfproj", "{2D81D71B-1A31-4AE8-94D3-C3E33018D03B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebAppIIS.Tests", "WebApplication1.Tests\SampleWebAppIIS.Tests.csproj", "{9039FAFD-2F26-40E2-8943-012E8441ABE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,14 @@ Global
 		{2D81D71B-1A31-4AE8-94D3-C3E33018D03B}.Release|x64.ActiveCfg = Release|x64
 		{2D81D71B-1A31-4AE8-94D3-C3E33018D03B}.Release|x64.Build.0 = Release|x64
 		{2D81D71B-1A31-4AE8-94D3-C3E33018D03B}.Release|x64.Deploy.0 = Release|x64
+		{9039FAFD-2F26-40E2-8943-012E8441ABE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9039FAFD-2F26-40E2-8943-012E8441ABE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9039FAFD-2F26-40E2-8943-012E8441ABE9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9039FAFD-2F26-40E2-8943-012E8441ABE9}.Debug|x64.Build.0 = Debug|Any CPU
+		{9039FAFD-2F26-40E2-8943-012E8441ABE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9039FAFD-2F26-40E2-8943-012E8441ABE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9039FAFD-2F26-40E2-8943-012E8441ABE9}.Release|x64.ActiveCfg = Release|Any CPU
+		{9039FAFD-2F26-40E2-8943-012E8441ABE9}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
