@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-  samplewebappcore2:
-    image: samplewebappcore2
-    build:
-      context: .\SampleWebAppCore2
-      dockerfile: Dockerfile
