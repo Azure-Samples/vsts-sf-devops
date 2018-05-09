@@ -6,6 +6,6 @@ RUN powershell -NoProfile -Command \
     Import-module IISAdministration; \
     New-IISSite -Name "Site" -PhysicalPath C:\site -BindingInformation "*:8000:" -Force
 
-EXPOSE 8000
+EXPOSE 80
 
 COPY . /site
