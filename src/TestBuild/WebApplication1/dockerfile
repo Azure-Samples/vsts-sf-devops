@@ -8,6 +8,4 @@ RUN powershell -NoProfile -Command \
 
 EXPOSE 8000
 
-ADD content/ /site
-
-RUN powershell Set-Acl -Path /site -AclObject (Get-Acl -Path "C:\inetpub\wwwroot");
+ADD . /site
