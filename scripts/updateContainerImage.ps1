@@ -1,4 +1,4 @@
-$path = "$Env:BUILD_ARTIFACTSTAGINGDIRECTORY" + "\applicationpackage\SampleWebAppPkg\ServiceManifest.xml"
+$path = "$Env:BUILD_ARTIFACTSTAGINGDIRECTORY" + "\applicationpackage\ASPNETSampleAppPkg\ServiceManifest.xml"
 
 [xml]$XmlDocument = Get-Content -Path $path
 
