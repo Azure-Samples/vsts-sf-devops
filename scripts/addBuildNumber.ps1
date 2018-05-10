@@ -6,4 +6,4 @@ $obj = $XmlDocument.configuration.appSettings.add | where {$_.Key -eq 'BuildNumb
 
 $obj.value = $Env:BUILD_BUILDID
 
-Set-Content $path
+$XmlDocument.Save($path)
