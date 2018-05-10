@@ -4,6 +4,6 @@ $path = "$Env:BUILD_ARTIFACTSTAGINGDIRECTORY" + "\content\_PublishedWebsites\Web
 
 $obj = $XmlDocument.configuration.appSettings.add | where {$_.Key -eq 'BuildNumber'}
 
-$obj.value = $Env:BUILD_BUILDID
+$obj.value = $Env:BUILD_BUILDNUMBER
 
 $XmlDocument.Save($path)
