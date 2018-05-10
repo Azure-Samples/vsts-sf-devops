@@ -1,11 +1,5 @@
-FROM microsoft/iis
+FROM microsoft/aspnet:4.7.1
 
-RUN mkdir C:\site
+ARG site_root=.
 
-RUN powershell -NoProfile -Command \
-    Import-module IISAdministration; \
-    New-IISSite -Name "Site" -PhysicalPath C:\site -BindingInformation "*:8000:" -Force
-
-EXPOSE 8000
-
-ADD . /site
+ADD ${site_root} /inetpub/wwwroot
