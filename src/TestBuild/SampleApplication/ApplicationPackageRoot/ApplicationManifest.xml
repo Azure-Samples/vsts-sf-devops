@@ -17,7 +17,7 @@
       <ContainerHostPolicies CodePackageRef="Code">
         <!-- See https://aka.ms/I7z0p9 for how to encrypt your repository password -->
         <RepositoryCredentials AccountName="" Password="" PasswordEncrypted="true" />
-        <PortBinding ContainerPort="8000" EndpointRef="ASPNETSampleAppTypeEndpoint" />
+        <PortBinding ContainerPort="80" EndpointRef="ASPNETSampleAppTypeEndpoint" />
       </ContainerHostPolicies>
     </Policies>
   </ServiceManifestImport>

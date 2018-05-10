@@ -5,3 +5,4 @@ ARG site_root=.
 ADD ${site_root} /inetpub/wwwroot
 
 EXPOSE 80
+
