@@ -1,4 +1,4 @@
-$path = "$Env:BUILD_ARTIFACTSTAGINGDIRECTORY" + "\GePApplication\content\_PublishedWebsites\WebApplication1\Web.config"
+$path = "$Env:BUILD_ARTIFACTSTAGINGDIRECTORY" + "\content\_PublishedWebsites\WebApplication1\Web.config"
 
 [xml]$XmlDocument = Get-Content -Path $path
 
