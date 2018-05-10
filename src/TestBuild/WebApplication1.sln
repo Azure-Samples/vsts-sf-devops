@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{881B567F-317D-42D8-A44B-302C622A7EA1}"
 EndProject
-Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "SampleApplication", "..\SampleApplication\SampleApplication.sfproj", "{2D81D71B-1A31-4AE8-94D3-C3E33018D03B}"
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "SampleApplication", "SampleApplication\SampleApplication.sfproj", "{2D81D71B-1A31-4AE8-94D3-C3E33018D03B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebAppIIS.Tests", "WebApplication1.Tests\SampleWebAppIIS.Tests.csproj", "{9039FAFD-2F26-40E2-8943-012E8441ABE9}"
 EndProject
