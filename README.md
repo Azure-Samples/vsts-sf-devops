@@ -9,6 +9,7 @@ This project framework provides the following features:
 * VSTS Integration
 * Github Integration
 * Service Fabric
+* Visual Studio Test/ Code Coverage
 
 ## Getting Started
 
