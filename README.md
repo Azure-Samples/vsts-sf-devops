@@ -6,8 +6,9 @@
 
 This project framework provides the following features:
 
-* Feature 1
-* Feature 2
+VSTS Integration
+Github Integration
+Service Fabric
 * ...
 
 ## Getting Started
