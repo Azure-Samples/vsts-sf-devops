@@ -1,6 +1,6 @@
-# Project Name
+# DevOps Sample
 
-(short, 1-3 sentenced, description of the project)
+[![Build Status](https://oguzp-msft.visualstudio.com/_apis/public/build/definitions/ab1f1f92-3893-4e4b-9bb8-d6ee6040fa0b/25/badge)](https://oguzp-msft.visualstudio.com/_apis/public/build/definitions/ab1f1f92-3893-4e4b-9bb8-d6ee6040fa0b/25/badge)
 
 ## Features
 
