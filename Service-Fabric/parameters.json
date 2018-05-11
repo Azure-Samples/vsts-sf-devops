@@ -1,0 +1,78 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "gepsf"
+        },
+        "clusterLocation": {
+            "value": "eastus"
+        },
+        "computeLocation": {
+            "value": "eastus"
+        },
+        "adminUserName": {
+            "value": "azureuser"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "nicName": {
+            "value": "NIC-gepsf"
+        },
+        "publicIPAddressName": {
+            "value": "gepsf-PubIP"
+        },
+        "dnsName": {
+            "value": "gepsf"
+        },
+        "virtualNetworkName": {
+            "value": "VNet-gepsf"
+        },
+        "lbName": {
+            "value": "LB-gepsf"
+        },
+        "lbIPName": {
+            "value": "LBIP-gepsf"
+        },
+        "applicationDiagnosticsStorageAccountName": {
+            "value": "sfdggepsf3620"
+        },
+        "supportLogStorageAccountName": {
+            "value": "sflogsgepsf3673"
+        },
+        "sourceVaultValue": {
+            "value": "/subscriptions/b5bcb319-fa75-4d2e-9e8a-5c2fd0792682/resourceGroups/oguzpsf1kv/providers/Microsoft.KeyVault/vaults/oguzpsf1kv"
+        },
+        "certificateUrlValue": {
+            "value": "https://oguzpsf1kv.vault.azure.net/secrets/gepsfpfx/6d3a780b2c914f90ac270d6798cecad8"
+        },
+        "certificateThumbprint": {
+            "value": "E373AE65956C4A2E61D52E633D6FA3F16C8D212D"
+        },
+        "vmImageSku": {
+            "value": "Datacenter-Core-1709-with-Containers-smalldisk"
+        },
+        "vmImageOffer": {
+            "value": "WindowsServerSemiAnnual"
+        },
+        "nt0ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt0ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt0applicationStartPort": {
+            "value": 20000
+        },
+        "nt0applicationEndPort": {
+            "value": 30000
+        },
+        "nt0fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt0fabricHttpGatewayPort": {
+            "value": 19080
+        }
+    }
+}
