@@ -1,14 +1,14 @@
 # DevOps Sample
 
-[![Build Status](https://oguzp-msft.visualstudio.com/_apis/public/build/definitions/ab1f1f92-3893-4e4b-9bb8-d6ee6040fa0b/25/badge)](https://oguzp-msft.visualstudio.com/_apis/public/build/definitions/ab1f1f92-3893-4e4b-9bb8-d6ee6040fa0b/25/badge)
+[![Build Status](https://oguzp-msft.visualstudio.com/_apis/public/build/definitions/24d566dd-c3f2-4169-81d5-fba94d4af622/29/badge)](https://oguzp-msft.visualstudio.com/_apis/public/build/definitions/24d566dd-c3f2-4169-81d5-fba94d4af622/29/badge)
 
 ## Features
 
 This project framework provides the following features:
 
-VSTS Integration
-Github Integration
-Service Fabric
+* VSTS Integration
+* Github Integration
+* Service Fabric
 * ...
 
 ## Getting Started
