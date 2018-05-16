@@ -18,7 +18,7 @@ This project framework provides the following features:
 
 - OS
 - Library version
-- ...
+- FIXED the README
 
 ### Installation
 
